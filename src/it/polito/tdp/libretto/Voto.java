@@ -23,7 +23,7 @@ public class Voto {
 		return voto;
 	}
 	public void setVoto(int voto) {
-		if(voto<18 || voto>30) {
+		if(voto<18 || voto>34) {
 			throw new IllegalArgumentException("Valore non ammesso");
 		}
 		this.voto = voto;
